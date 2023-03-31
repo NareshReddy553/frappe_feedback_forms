@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include accentiqa *.css
+recursive-include accentiqa *.csv
+recursive-include accentiqa *.html
+recursive-include accentiqa *.ico
+recursive-include accentiqa *.js
+recursive-include accentiqa *.json
+recursive-include accentiqa *.md
+recursive-include accentiqa *.png
+recursive-include accentiqa *.py
+recursive-include accentiqa *.svg
+recursive-include accentiqa *.txt
+recursive-exclude accentiqa *.pyc
