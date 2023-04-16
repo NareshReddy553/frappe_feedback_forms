@@ -1,0 +1,107 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-04-12 18:57:28.922852",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "reporting_manager",
+  "client",
+  "project_name",
+  "resource_name",
+  "rating",
+  "section_break_kat0x",
+  "feedback",
+  "section_break_xxc8n",
+  "goals"
+ ],
+ "fields": [
+  {
+   "default": "Steven Willson",
+   "fieldname": "reporting_manager",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Reporting Manager",
+   "reqd": 1
+  },
+  {
+   "default": "CRUNCHTIME",
+   "fieldname": "client",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Client",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "default": "CRUNCHTIME",
+   "fieldname": "project_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Project Name",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "resource_name",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Resource Name",
+   "options": "Nehru Hatkar\nPavan sai\u00a0Gunna\nPrasanth Pullaganti\nMuneendra Sanchi\nSabreen Banu Shaik\nNarendra Gade",
+   "reqd": 1
+  },
+  {
+   "fieldname": "rating",
+   "fieldtype": "Select",
+   "label": "Rating",
+   "options": "Below Average\nAverage\nGood\nMeets Expectation\nExceeds Expectation",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_kat0x",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "feedback",
+   "fieldtype": "Table",
+   "label": "Feedback",
+   "options": "Crunch_Time_Feb_Child"
+  },
+  {
+   "fieldname": "section_break_xxc8n",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "goals",
+   "fieldtype": "Table",
+   "label": "Goals",
+   "options": "Crunch_Time_Fed_Goal"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-04-12 21:53:27.184384",
+ "modified_by": "Administrator",
+ "module": "Accentiqa",
+ "name": "Crunch_Time_Feb_Parent",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

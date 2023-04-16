@@ -1,0 +1,44 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-04-01 11:58:06.496124",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "strengths",
+  "weakness",
+  "suggested_improvement"
+ ],
+ "fields": [
+  {
+   "fieldname": "strengths",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Strengths"
+  },
+  {
+   "fieldname": "weakness",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Weakness"
+  },
+  {
+   "fieldname": "suggested_improvement",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Suggested Improvement"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-04-01 13:04:36.793287",
+ "modified_by": "Administrator",
+ "module": "Accentiqa",
+ "name": "Feedback_child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

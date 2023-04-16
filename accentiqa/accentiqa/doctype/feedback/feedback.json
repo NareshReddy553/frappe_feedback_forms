@@ -1,0 +1,112 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-04-01 12:12:47.313665",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_manager_or_supervisor",
+  "client",
+  "project_name",
+  "resource_name",
+  "column_break_fctgp",
+  "section_break_o3xqd",
+  "feedback",
+  "section_break_qbmdl",
+  "goal",
+  "rating"
+ ],
+ "fields": [
+  {
+   "default": "Please select Manager",
+   "fieldname": "project_manager_or_supervisor",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Project Manager or Supervisor",
+   "reqd": 1
+  },
+  {
+   "default": "Secturasoft",
+   "fieldname": "client",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Client",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Project Name",
+   "options": "Store Front\nVendor Connect\nMonetization\nCost & Operations\nIntegration\nSFab",
+   "reqd": 1
+  },
+  {
+   "description": "Please select resource name from dropdown",
+   "fieldname": "resource_name",
+   "fieldtype": "Select",
+   "label": "Resource Name",
+   "length": 50,
+   "options": "Vaishnavi Mudivarthi\nSampath Neralla\nLavanya Regonda\nAbdul Hafeez\nDeepika Kolli\nSuhasini Mangisetty\nNari chaitanya Adugula\nRamanjaneyulu Kandlagunta",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_fctgp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_o3xqd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "feedback",
+   "fieldtype": "Table",
+   "label": "Feedback",
+   "options": "Feedback_child"
+  },
+  {
+   "fieldname": "section_break_qbmdl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "goal",
+   "fieldtype": "Table",
+   "label": "Goals",
+   "options": "Feedback_goals"
+  },
+  {
+   "fieldname": "rating",
+   "fieldtype": "Select",
+   "label": "Rating",
+   "options": "Below Average\nAverage\nGood\nMeets Expectation\nExceeds Expectation",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-04-12 10:42:23.482272",
+ "modified_by": "Administrator",
+ "module": "Accentiqa",
+ "name": "Feedback",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
